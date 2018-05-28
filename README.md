@@ -1,7 +1,7 @@
 # SalesPdfFonts
 Changes the font used to generate sales PDFs to a font which supports more writing systems. 
 
-In Magento versions 2.2.2 & 2.1.10 the [Libertine Font](https://en.wikipedia.org/wiki/Linux_Libertine) which is used to generate Sales PDFs does not support the Thai, Arabic and many other writing systems.  This module changes the font used to the [GNU Free Font](https://www.gnu.org/software/freefont/) which has much wider support of different writing systems.  See the [GNU Free Font](https://www.gnu.org/software/freefont/) web page for a full list of writing systems supported.
+In Magento versions 2.2.2 & 2.1.10 the [Libertine Font](https://en.wikipedia.org/wiki/Linux_Libertine) which is used to generate Sales PDFs does not support the Thai, Hindi and many other writing systems.  This module changes the font used to the [GNU Free Font](https://www.gnu.org/software/freefont/) which has much wider support of different writing systems.  See the [GNU Free Font](https://www.gnu.org/software/freefont/) web page for a full list of writing systems supported.
 
 ## Please Note
 There are two open tickets for this on GitHub so this will hopefully be fixed in a later Magento releases.  In which case it may be better to upgrade your magento version than installing this module.
