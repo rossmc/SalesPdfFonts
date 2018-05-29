@@ -20,7 +20,7 @@ trait SetFontTrait {
     protected function _setFontRegular($object, $size = 7)
     {
         $font = \Zend_Pdf_Font::fontWithPath(
-            $this->getFontsDir() . ('gnufreefont/FreeSerif.ttf')
+            $this->getFontsDir() . ('noto-sans-arabic/NotoSansArabicUI-Regular.ttf')
         );
         $object->setFont($font, $size);
         return $font;
@@ -36,7 +36,7 @@ trait SetFontTrait {
     protected function _setFontBold($object, $size = 7)
     {
         $font = \Zend_Pdf_Font::fontWithPath(
-            $this->getFontsDir() . ('gnufreefont/FreeSerifBold.ttf')
+            $this->getFontsDir() . ('noto-sans-arabic/NotoSansArabicUI-SemiBold.ttf')
         );
         $object->setFont($font, $size);
         return $font;
@@ -52,7 +52,7 @@ trait SetFontTrait {
     protected function _setFontItalic($object, $size = 7)
     {
         $font = \Zend_Pdf_Font::fontWithPath(
-            $this->getFontsDir() . ('gnufreefont/FreeSerifItalic.ttf')
+            $this->getFontsDir() . ('noto-sans-arabic/NotoSansArabicUI-Light.ttf')
         );
         $object->setFont($font, $size);
         return $font;
